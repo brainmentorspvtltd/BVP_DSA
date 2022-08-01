@@ -1,0 +1,54 @@
+Java Programming
+- Object Oriented
+- Platform Independent - WORA - Write Once Run Anywhere
+- High Level Language
+------------------------------------------------
+Creating first program in Java
+- Every program needs to be started with a class
+- Class Name should be (not must) started with Capital letter
+- Class Name and file name must be same (Byte code will be generated with the name of class)
+- Class Name starts with an alphabet or underscore or dollar sign
+-------------------------------------------
+Execution Steps
+- we need to compile the program
+  javac ClassName.java -> Java triggers JDK, it compiles the program and generate byte code
+- we need to interpret the code
+  java ClassName	-> JRE is triggered here and it executes the code
+--------------------------------------------
+Why main method is public ?
+  - JRE uses main method : java ByteCode
+  - because main is the entry point of program and if it is not public than JRE won't be able to find it
+  - JRE loads our class in memory
+Why main method is static ?
+  - in java static things are loaded with class
+Why main method is void ?
+  - Because main method returns nothing...
+
+What is System ?
+- System is a pre-defined class in Java used for 3 things :
+  - System.in	- for taking input 
+  - System.out	- for showing output
+  - System.err	- for displaying error
+What is out ?
+  - out is a member of System class and it belongs to PrintStream Class in Java
+What is println ?
+  - println is a method of PrintStream Class used to print anything on console
+
+https://github.com/brainmentorspvtltd/BVP_DSA
+
+
+
+
+
+
+
+
+
+
+Why main method has String args[] ?
+
+
+
+
+
+
