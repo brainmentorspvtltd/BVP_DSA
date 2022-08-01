@@ -1,0 +1,9 @@
+Prime Number
+Pattern Programs
+
+Pattern-1
+*****
+*****
+*****
+*****
+*****
