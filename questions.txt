@@ -7,3 +7,65 @@ Pattern-1
 *****
 *****
 *****
+
+Time and Space Complexity
+Analysis of Loop
+Array CRUD
+Max Element in Array
+Second Max Element in Array
+Bar Chart
+Is Array Sorted
+Reverse an Array
+Pair Sum
+Buy and Sell Stock
+Rain Water Trapping
+
+
+Prefix and Suffix
+Prefix Sum, Min, Max
+Suffix Sum, Min, Max
+
+Sorting
+- Bubble Sort
+- Selection Sort
+  - take 0th element as min element
+  - compare min element with second element, if second element is smaller than assign second element as min
+  - at the end of first iteration of i we get minimum element and we place that element on 0th index
+  - after each iteration min element is placed in front of unsorted array
+
+- Insertion Sort
+- Merge 2 sorted arrays
+    i/p : arr_1[] = {6,9,10,15}, arr_2[] = {1,3,7,11,14,20};
+    o/p : 1,3,6,7,9,10,11,14,15,20
+- Merge Sort
+  - based on Divide and Conquer
+
+Majority Element
+- element that appears more than n/2 in an array
+
+- Naive Approach
+- Hashmap
+- Using Divide & Conquer - HW
+- Using Boyer Moore Vooting Algorithm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- Quick Sort
+- Cycle Sort
+- Counting Sort
+- Heap Sort
+- Radix Sort
+- Shell Sort
+- Tim Sort
+Searching
