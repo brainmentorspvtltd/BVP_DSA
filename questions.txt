@@ -48,19 +48,6 @@ Majority Element
 - Using Divide & Conquer - HW
 - Using Boyer Moore Vooting Algorithm
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 - Quick Sort
 - Cycle Sort
 - Counting Sort
@@ -69,3 +56,53 @@ Majority Element
 - Shell Sort
 - Tim Sort
 Searching
+
+
+NBonacci Series
+N = 3
+0,1,1,2,4,7,13,24
+
+String Pattern Matching
+- Window Sliding Technique
+- Rabin Karp
+- KMP - Knuth Morris Pratt Algorithm
+  - It construct LPS (Longest Prefix Suffix) Array 
+
+String Compression
+https://leetcode.com/problems/string-compression/
+
+String to Integer
+https://leetcode.com/problems/string-to-integer-atoi/
+
+Roman to Integer
+https://leetcode.com/problems/roman-to-integer/
+
+Integer to Roman
+https://leetcode.com/problems/integer-to-roman/
+
+=======================================
+DivSub - Divide Subset
+- PigeonHole Principle
+=======================================
+
+Arrays 2D
+- Square Matrix
+- Symmetric Matrix : a[i][j] = a[j][i]
+- Tridiagonal Matrix
+- Toeplitz Matrix
+
+Ways to define 2D arrays in Java
+int arr[][] = new int[3][3];
+int [][]arr = new int[3][3];
+int []arr[] = new int[3][3];
+int arr[][] = {{1,2,3}, {4,5,6}, {7,8,9}}
+
+1. Traverse 2D array in row major and col major
+2. Transpose
+3. Lucky Number
+4. Rotate Matrix
+5. Snake Pattern
+6. Spiral Matrix
+7. K-Weakest Row
+8. Pascal Triangle
+9. Toeplitz Matrix
