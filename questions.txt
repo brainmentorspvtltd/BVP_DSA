@@ -106,3 +106,55 @@ int arr[][] = {{1,2,3}, {4,5,6}, {7,8,9}}
 7. K-Weakest Row
 8. Pascal Triangle
 9. Toeplitz Matrix
+
+=======================================
+
+Linked List
+- No Random Access like array
+- Dynamic Memory, Non-Contiguous
+- Sequential Access
+
+Data is stored in Node in Linked List
+
+1. Insertion in Linked List
+   - start / mid / end
+2. Deletion in Linked List
+   - start / mid / end
+3. Reverse Linked List
+4. Mid Point - Slow Fast Pointer
+5. Detect and Remove Loop in Linked List - HW : LeetCode : 141
+6. Merge 2 sorted Linked List : LeetCode : 21
+7. Merge K sorted Linked List
+8. Clone a Doubly Linked List
+9. LRU Cache : LeetCode 146
+
+==================================
+Binary Exponentiation
+Inclusion Exclusion
+
+BigInteger
+Addition of 2 Linked List
+
+Total numbers which are less than 500 and divisible by first 3 prime numbers
+=> {2,3,5}
+
+Bit Manipulations
+Kth Bit is Set or Not
+Count Set Bits
+Missing Number
+Odd Occurrence of a Number
+Power Set
+
+==================================
+
+Stack
+- follows LIFO - Last In First Out
+
+Stack Operations
+- push - append data
+- pop  - delete data from top
+- peek - return top element
+- empty - checks if stack is empty
+
+1. Stack Operations
+2. Valid Parantheses
