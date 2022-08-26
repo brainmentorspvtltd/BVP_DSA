@@ -158,3 +158,55 @@ Stack Operations
 
 1. Stack Operations
 2. Valid Parantheses
+([]{}) - valid
+(([{}()])) - valid
+(({))} - invalid
+3. Implement 2 Stack in an array
+4. Implement K Stack in an array
+approach - use 2 extra arrays:
+  top[] - array of k size and store indexes of top elements of all stack
+  next[] - N size array and store indexes of next item for the items in array
+           
+==================================
+
+Recursion
+- Single Branch Recursion
+- Multi Branch Recursion
+- Dice Game
+
+==================================
+
+Backtracking
+1. N-Queen Problem
+2. Sudoku Solver
+3. Permutations LeetCode - 46
+4. Word Search LeetCode - 79
+5. Rat in a Maze
+
+==================================
+
+Euclid Algorithm
+Euclid
+- If we will subtract the smaller number from the larger number than GCD will not be impacted
+- So if we divide the smaller number instead of subtraction than we will get same result
+
+Extended Euclidean Algorithm
+
+
+
+==================================
+Dynamic Programming
+- entirely based on Recursion
+- it solve 2 major problems of recursion : 
+  - Overlapping Sub Problem
+  - SubStructure Property
+
+DP Provides 2 type of solutions
+- Memoization (Top Down)
+- Tabulation  (Bottom Up)
+
+Dice Game
+Pascal Triangle : LeetCode - 118
+LCS - Longest Common Subsequence
+
+
