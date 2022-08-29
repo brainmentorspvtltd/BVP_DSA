@@ -192,8 +192,6 @@ Euclid
 
 Extended Euclidean Algorithm
 
-
-
 ==================================
 Dynamic Programming
 - entirely based on Recursion
@@ -209,4 +207,20 @@ Dice Game
 Pascal Triangle : LeetCode - 118
 LCS - Longest Common Subsequence
 
+==================================
 
+Miscellaneous Questions
+- Gas Station Problem
+- Game of life
+- Coin Change : Leetcode - 322
+- Count Maze Path
+
+Stack Based Questions
+- Stock Span
+- Previous Greater Element
+- Previous Smaller Element
+- Next Greater Element
+- Next Smaller Element
+- Largest Rectangular Area : LeetCode - 84
+- Pattern 132 : LeetCode - 456
+- Infix to Postfix
