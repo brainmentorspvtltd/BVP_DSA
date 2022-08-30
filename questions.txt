@@ -253,3 +253,10 @@ Linked List Implementation of Queue
 Implement Queue Using Stack
 Reverse a queue using Recursion
 Generate K Digits with given set
+
+Project Ideas
+Tic Tac Toe
+Sudoku Solver
+Shortest Path Finder
+Rat in a Maze
+NQueen Visualizer
