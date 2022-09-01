@@ -206,6 +206,14 @@ DP Provides 2 type of solutions
 Dice Game
 Pascal Triangle : LeetCode - 118
 LCS - Longest Common Subsequence
+Edit Distance
+Subset Sum
+Knapsack
+MCP - Min Cost Path
+House Robber : LeetCode - 198
+Wildcard : LeetCode - 44
+Poor Pigs - LeetCode - 458
+Number of Music Playlist - Leetcode - 920
 
 ==================================
 
@@ -260,3 +268,15 @@ Sudoku Solver
 Shortest Path Finder
 Rat in a Maze
 NQueen Visualizer
+============================
+
+Modular Arithmetic
+- Modular Multiplicative Inverse
+- Fermat's Theorem
+- Quotient Remainder Theorem
+- Chinese Remainder Theorem
+
+x % 3 = 2
+x % 5 = 3
+x % 7 = 4
+Find x..?
