@@ -276,7 +276,56 @@ Modular Arithmetic
 - Quotient Remainder Theorem
 - Chinese Remainder Theorem
 
+Modular Addition
+(a+b) mod m = ((a mod m) + (b mod m)) mod m
+
+Modular Multiplication
+(a x b) mod m = ((a mod m) x (b mod m)) mod m
+
+Modular Division
+
+Given 3 integers
+a = 8, b = 4, m = 5
+find a/b under mod m.
+find out c for : (b*c) % m = a % m
+
+Modular Multiplicative Inverse
+a = 3, m = 11
+
+If we know m is prime then we use Fermat's little theorem
+does Fermat theorem holds true for
+given p = 5 and a = 2
+16 = 1 (mod 5)
+
+given p = 13 and a = 11
+
+find remainder when we divide 3 ^ 100000 by 53
+
+
+Chinese Remainder Theorem
 x % 3 = 2
 x % 5 = 3
 x % 7 = 4
 Find x..?
+
+Combinatorics
+Binomial Coefficients
+Prime Sieve
+Segmented Sieve
+
+============================================
+Tree
+- Binary Tree
+  - tree which has 2 children
+  - used in machine learning
+  - Expression Evaluation
+  
+Tree Traversal
+- BFS - Breadth First - Queue
+- DFS - Depth First   - Stack
+  - InOrder - LPR
+  - PreOrder - PLR
+  - PostOrder - LRP
+
+- Find Height of a tree
+- Maximum Element in binary tree
