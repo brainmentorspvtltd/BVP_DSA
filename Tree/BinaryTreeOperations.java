@@ -1,4 +1,6 @@
+import java.util.LinkedList;
 import java.util.Scanner;
+import java.util.Stack;
 
 class BinaryTree<T> {
     T data;
@@ -56,6 +58,46 @@ public class BinaryTreeOperations {
         postOrder(root.leftChild);
         postOrder(root.rightChild);
         System.out.println(root.data);
+    }
+
+    void preOrderIterative(BinaryTree<Integer> root) {
+        /*
+         * Create one empty stack
+         * push root node to stack
+         * while stack is not empty
+         *    pop an item from stack & print it
+         *    push right child of popped item in stack
+         *    push left child of popped item in stack
+         */
+
+        Stack<BinaryTree<Integer>> st = new Stack<>();
+        BinaryTree<Integer> current = root;
+        while(!st.isEmpty() || current != null) {
+            if(!st.isEmpty() && current == null) {
+                current = st.pop();
+            }
+            System.out.println(current.data);
+            if(current.rightChild != null) {
+                st.push(current.rightChild);
+            }
+            current = current.leftChild;
+        }
+
+    }
+
+    void levelOrder(BinaryTree<Integer> root) {
+        LinkedList<BinaryTree<Integer>> queue = new LinkedList<>();
+        queue.add(root);
+        while(!queue.isEmpty()) {
+            BinaryTree<Integer> node = queue.removeFirst();
+            System.out.println(node.data);
+            if(node.leftChild != null){
+                queue.addLast(node.leftChild);
+            }
+            if(node.rightChild != null) {
+                queue.addLast(node.rightChild);
+            }
+        }
     }
 
     void print(BinaryTree<Integer> root) {
