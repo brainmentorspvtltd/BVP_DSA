@@ -301,7 +301,6 @@ given p = 13 and a = 11
 
 find remainder when we divide 3 ^ 100000 by 53
 
-
 Chinese Remainder Theorem
 x % 3 = 2
 x % 5 = 3
@@ -309,7 +308,9 @@ x % 7 = 4
 Find x..?
 
 Combinatorics
+ - Combinatorics is also known as Combinatorial Mathematics
 Binomial Coefficients
+Segmented Tree
 Prime Sieve
 Segmented Sieve
 
@@ -329,3 +330,22 @@ Tree Traversal
 
 - Find Height of a tree
 - Maximum Element in binary tree
+- Left View
+- Right View
+- Vertical Order Traversal
+- Top View
+- Bottom View
+- Diagonal View
+- Boundary Nodes
+- Children Sum
+- Construct Sum Tree of binary tree
+- Balance Tree
+- Tree in Spiral Order
+- Ancestors of a Node
+- Construct binary tree using InOrder and PreOrder
+
+
+arr = [1,3,5,7,11,13,6,9]
+q number of queries - find sum from i to j
+Segmented Tree
+
