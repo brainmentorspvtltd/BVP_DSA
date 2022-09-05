@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+
 public class LeftView {
     static int maxLevel = 0;
     static void leftView(BinaryTree<Integer> root, int level) {
@@ -12,6 +14,26 @@ public class LeftView {
 
         leftView(root.leftChild, level+1);
         leftView(root.rightChild, level+1);
+    }
+
+    static int leftViewIter(BinaryTree<Integer> root) {
+        LinkedList<Integer> queue = new LinkedList<>();
+        queue.add(root);
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                BinaryTree<Integer> currentNode = queue.removeFirst();
+                if(i == 0) {
+                    System.out.println(currentNode.data);
+                }
+                if(currentNode.leftChild != null) {
+                    queue.addLast(currentNode.leftChild);
+                }
+                if(currentNode.rightChild != null) {
+                    queue.add(currentNode.rightChild);
+                }
+            }
+        }
     }
 
     public static void main(String[] args) {
