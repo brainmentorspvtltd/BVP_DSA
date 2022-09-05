@@ -16,8 +16,8 @@ public class LeftView {
         leftView(root.rightChild, level+1);
     }
 
-    static int leftViewIter(BinaryTree<Integer> root) {
-        LinkedList<Integer> queue = new LinkedList<>();
+    static void leftViewIter(BinaryTree<Integer> root) {
+        LinkedList<BinaryTree<Integer>> queue = new LinkedList<>();
         queue.add(root);
         while(!queue.isEmpty()) {
             int size = queue.size();
