@@ -311,8 +311,6 @@ Combinatorics
  - Combinatorics is also known as Combinatorial Mathematics
 Binomial Coefficients
 Segmented Tree
-Prime Sieve
-Segmented Sieve
 
 ============================================
 Tree
@@ -344,8 +342,71 @@ Tree Traversal
 - Ancestors of a Node
 - Construct binary tree using InOrder and PreOrder
 
+BST - Binary Search Tree
+- they are inspired from binary tree and maintain low, high and mid pointer
+- root is mid point, on left side we have low elements and on right side we have high elements
 
 arr = [1,3,5,7,11,13,6,9]
 q number of queries - find sum from i to j
 Segmented Tree
 
+Graph
+
+2 types of graph:
+- Directed
+- Undirected
+
+Graph Traversal
+- BFS
+- DFS
+
+Minimum Spanning Tree
+- sub-graph of an Undirected connected graph which will include all the vertices of the graph with minimum possible number of edges
+
+- Prims
+- Kruskal
+  - sort the edges according to weights in ascending order
+  - take the edge with min weight and add it to spanning tree. 
+    While doing this if adding an edge leads to creation of a cycle than reject the edge
+  - keep adding edges until we reach all vertices
+
+Shortest Path
+- Dijkstra
+
+Count Island in DFS disconnected graph
+Detect Cycle in Undirected Graph
+Detect Cycle in Directed Graph
+Clone of a Graph
+    Ref - https://leetcode.com/problems/clone-graph/
+Rotten Oranges - HW
+    Ref : https://leetcode.com/problems/rotting-oranges/
+Number of Islands - HW
+    Ref : https://leetcode.com/problems/number-of-islands/
+
+
+Greedy Algorithms
+
+Prime Sieve
+Segmented Sieve
+
+Game Theory
+- Combinatorial Game
+- Nim Game
+
+Heap
+- special type of tree based data structure
+- here tree is always complete binary tree
+
+Min Heap and Max Heap
+
+Operations on Heap
+- Heapify - creating heap from an array
+- Insertion - inserting an element in existing heap
+- Deletion - deleting an element from heap
+- peek - find the most prior element (max or min element)
+
+UpHeapify
+DownHeapify
+
+Kth Largest Element in Heap
+Kth Smallest Element in Heap
